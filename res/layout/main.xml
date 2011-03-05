@@ -1,12 +1,162 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- 
+<AbsoluteLayout
+android:id="@+id/widget0"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+
+<TextView
+android:id="@+id/widget44"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content"
+android:text="Hello World, tipcalc"
+android:layout_x="0px"
+android:layout_y="-1px"
+>
+</TextView>
+<TextView
+android:id="@+id/widget28"
+android:layout_width="99px"
+android:layout_height="17px"
+android:text="Amount of Bill"
+android:layout_x="40px"
+android:layout_y="32px"
+>
+</TextView>
+<TextView
+android:id="@+id/widget29"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Percentage to Tip"
+android:layout_x="40px"
+android:layout_y="82px"
+>
+</TextView>
+<TextView
+android:id="@+id/widget30"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Number of People"
+android:layout_x="40px"
+android:layout_y="132px"
+>
+</TextView>
+<TextView
+android:id="@+id/widget31"
+android:layout_width="wrap_content"
+android:layout_height="18px"
+android:text="Tip Amout"
+android:layout_x="40px"
+android:layout_y="262px"
+>
+</TextView>
+<TextView
+android:id="@+id/widget32"
+android:layout_width="wrap_content"
+android:layout_height="18px"
+android:text="Total Per Person"
+android:layout_x="40px"
+android:layout_y="352px"
+>
+</TextView>
+<TextView
+android:id="@+id/widget33"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Total To Pay"
+android:layout_x="40px"
+android:layout_y="302px"
+>
+</TextView>
+<Button
+android:id="@+id/btncalculate"
+android:layout_width="87px"
+android:layout_height="wrap_content"
+android:text="Calculate"
+android:layout_x="40px"
+android:layout_y="182px"
+>
+</Button>
+<Button
+android:id="@+id/btnreset"
+android:layout_width="86px"
+android:layout_height="wrap_content"
+android:text="Reset"
+android:layout_x="197px"
+android:layout_y="182px"
+>
+</Button>
+<EditText
+android:id="@+id/txtbillamount"
+android:layout_width="wrap_content"
+android:layout_height="35px"
+android:text="100"
+android:textSize="18sp"
+android:layout_x="200px"
+android:layout_y="22px"
+>
+</EditText>
+<EditText
+android:id="@+id/txtpercentage"
+android:layout_width="51px"
+android:layout_height="36px"
+android:text="10"
+android:textSize="18sp"
+android:layout_x="200px"
+android:layout_y="72px"
+>
+</EditText>
+<EditText
+android:id="@+id/txtpeople"
+android:layout_width="wrap_content"
+android:layout_height="39px"
+android:text="1"
+android:textSize="18sp"
+android:layout_x="200px"
+android:layout_y="122px"
+>
+</EditText>
+<TextView
+android:id="@+id/txttipamount"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_x="200px"
+android:layout_y="262px"
+>
+</TextView>
+<TextView
+android:id="@+id/txttotal"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_x="200px"
+android:layout_y="302px"
+>
+</TextView>
+<TextView
+android:id="@+id/txtperperson"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_x="200px"
+android:layout_y="352px"
+>
+</TextView>
+</AbsoluteLayout> -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    >
-<TextView  
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/hello"
-    />
-</LinearLayout>
+     android:orientation="vertical"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     >
+     <ListView  
+         android:id="@android:id/list"
+         android:layout_width="fill_parent" 
+         android:layout_height="wrap_content" 
+         />
+     <TextView android:id="@android:id/empty"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="Empty set"
+         />
+ </LinearLayout>
+
